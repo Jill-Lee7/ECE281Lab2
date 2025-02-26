@@ -68,15 +68,14 @@ architecture test_bench of sevenseg_decoder_tb is
   -- declare any additional components required
 
   signal w_Hex   : std_logic_vector(3 downto 0) := (others => '0');
-  signal w_seg_n : std_logic_vector(6 downto 0) := (others => '1');
+  signal w_seg_n : std_logic_vector(6 downto 0);
 
 begin
-  --Instantiate my sevenseg decoder
-my_decoder : entity work.sevenseg_decoder
-  port map(
-    i_Hex   => w_Hex,
-    o_seg_n => w_seg_n
-  );
+  my_decoder_inst : sevenseg_decoder port map(
+      i_Hex   => w_Hex,
+      o_seg_n => w_seg_n
+    );
+
 
 
   --Test Process: Check 4 different hex values and assert expected outputs
@@ -103,3 +102,12 @@ my_decoder : entity work.sevenseg_decoder
   end process;
 
 end test_bench;
+
+
+
+
+
+
+
+
+
