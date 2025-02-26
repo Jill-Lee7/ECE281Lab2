@@ -1,15 +1,3 @@
---+----------------------------------------------------------------------------
---|
---| FILENAME      : sevenseg_decoder_tb.vhd
---| AUTHOR(S)     : Jillian Essig
---| CREATED       : 02/25/2025  Last Modified 02/25/2025
---| DESCRIPTION   : This file tests to ensure that the sevenseg_decoder
---|                works properly for all 16 hex values (0-F).
---|
---+----------------------------------------------------------------------------
-
-
-
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -65,12 +53,5 @@ begin
   end process;
 
 end test_bench;
-
-
-
-
-
-
-
 
 
