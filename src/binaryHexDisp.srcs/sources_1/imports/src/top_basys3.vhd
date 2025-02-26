@@ -110,10 +110,10 @@ begin
 	
 	w_7SD_EN_n <= not btnC;     -- Invert push button since active LOW
 
-    an(3) <= w_7SD_EN_n;        -- left digit turns on when button is pressed
-    an(2) <= '1';               -- all others off
-    an(1) <= '1';
-    an(0) <= '1';
+    an(0) <= w_7SD_EN_n;        -- rightmost digit turns on when button is pressed
+    an(1) <= '1';               -- all others off
+    an(2) <= '1';
+    an(3) <= '1';
 	
 	
 	
