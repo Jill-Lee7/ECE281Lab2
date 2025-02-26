@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Feb 26 08:43:45 2025
+# Process ID         : 22084
+# Current directory  : C:/ECE_CS/ECE281/ECE281Lab2/src/synth_1
+# Command line       : vivado.exe -log thirtyOneDayMonth.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source thirtyOneDayMonth.tcl
+# Log file           : C:/ECE_CS/ECE281/ECE281Lab2/src/synth_1/thirtyOneDayMonth.vds
+# Journal file       : C:/ECE_CS/ECE281/ECE281Lab2/src/synth_1\vivado.jou
+# Running On         : C27-5CG3123P17
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : AMD Ryzen 7 PRO 6850U with Radeon Graphics     
+# CPU Frequency      : 2695 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16442 MB
+# Swap memory        : 14918 MB
+# Total Virtual      : 31361 MB
+# Available Virtual  : 5956 MB
+#-----------------------------------------------------------
+source thirtyOneDayMonth.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 395.738 ; gain = 98.426
+ERROR: [Common 17-275] File does not exist [C:/Users/C27Jillian.Essig/OneDrive - afacademy.af.edu/Desktop/src/Basys3_Master.xdc]
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 26 08:44:02 2025...
